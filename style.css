@@ -1,22 +1,16 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;400&display=swap');
 
-:root {
-    --primary-color: #22254b;
-    --secondary-color: #373b69;
-}
 
 * {
-    box-sizing: border-box;
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
     font-family: 'Poppins', sans-serif;
 
 }
-
 body {
     background-color: #22254b;
 }
-
 header {
     display: flex;
     justify-content: space-between;
@@ -24,7 +18,6 @@ header {
     padding: 1rem 3rem;
     align-items: center;
 }
-
 
 header .logo {
     width: 100px;
